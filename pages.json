@@ -1,0 +1,78 @@
+{   	
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "青桔钱包",
+				"app-plus": {
+					
+				}
+			}
+		},
+		 {
+			"path": "pages/login/login",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/agreement/agreement",
+            "style" : {
+				"navigationBarTitleText": "青桔钱包隐私协议"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/vip/vip",
+            "style" : {
+				"navigationBarTitleText": "非会员界面"
+			}
+        }
+        ,{
+            "path" : "pages/product/product",
+            "style" : {
+				"navigationBarTitleText": "产品"
+			}
+        }
+        ,{
+            "path" : "pages/isvip/isvip",
+            "style" : {
+				"style" : {
+					"navigationBarTitleText": "会员中心"
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "青桔钱包",
+		"navigationBarBackgroundColor": "#53CAC3",
+		"backgroundColor": "#f7f7f7"
+	},
+	"tabBar": {
+	    "color": "#999",
+	    "selectedColor": "#53CAC3",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "text": "主页"
+	    }, {
+	        "pagePath": "pages/product/product",
+	        "text": "产品"
+	    },{
+	        "pagePath": "pages/vip/vip",
+	        "text": "会员"	
+	    },{
+	        "pagePath": "pages/my/my",
+	        "text": "我的"
+	    }]
+	}
+	
+}
