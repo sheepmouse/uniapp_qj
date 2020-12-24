@@ -4,7 +4,7 @@
 			产品界面
 		</view>
 		<!-- 自定义tabBar -->
-			<u-tabbar v-model="current" :list="$store.state.userInfo.tabbarlist" :mid-button="true"></u-tabbar>
+			        <u-tabbar :list="$store.state.tabBarList"></u-tabbar>  
 	</view>
 </template>
 

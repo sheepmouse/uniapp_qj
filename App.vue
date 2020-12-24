@@ -5,12 +5,18 @@
 </script>
 
 <style lang="scss">
+		  @import "uview-ui/index.scss"; 
+		  @import "colorui/main.css";
+		  @import "colorui/icon.css";
 	/*每个页面公共css */
-		@import "color_ui/colorui/main.css";
-		@import "color_ui/colorui/icon.css";
-		@import "uview-ui/index.scss";
 		.c_53cac3{
 			color: #53cac3;
 		}
-		
+		.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+		        content: "";
+		        display: block;
+		        height: 0;
+		        clear:both;
+		        visibility: hidden;
+		    }
 </style>

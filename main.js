@@ -1,15 +1,13 @@
 import Vue from 'vue'
 import App from './App'
 import store from './vuex/store.js'
-import uView from "uview-ui";
-
+import uView from "uview-ui"
+Vue.use(uView);
 //引入colorUi
 Vue.config.productionTip = false
 App.mpType = 'app'
-//引入uviewUI
-Vue.use(uView);
 const app = new Vue({
-    ...App,
+    ...App	,
 	store
 })
-app.$mount()
+app.$mount() //挂载Vue实例

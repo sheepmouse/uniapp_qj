@@ -6,13 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheepmouse/uniapp_qj.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheepmouse/uniapp_qj/issues"
+  },
+  "homepage": "https://github.com/sheepmouse/uniapp_qj#readme",
   "dependencies": {
     "uview-ui": "^1.8.3"
-  },
-  "devDependencies": {
-    "sass-resources-loader": "^2.1.1"
   }
 }

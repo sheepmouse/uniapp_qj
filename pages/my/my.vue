@@ -4,7 +4,8 @@
 			个人中心
 		</view>
 		<!-- 自定义tabBar -->
-			<u-tabbar v-model="current" :list="list" :mid-button="true"></u-tabbar>
+			      <u-tabbar :list="$store.state.tabBarList"></u-tabbar>  
+			
 	</view>
 </template>
 
@@ -18,6 +19,6 @@
 	}
 </script>
 
-<style lang="less">
+<style lang="scss">
 
 </style>
